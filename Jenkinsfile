@@ -1,4 +1,4 @@
-!/usr/bin/env groovy
+#!/usr/bin/env groovy
 /*
  *    This for comment section only !
  *    
