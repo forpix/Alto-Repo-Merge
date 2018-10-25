@@ -21,10 +21,6 @@ stage '\u2756  git checkout scm'
         echo 'scm : the commit branch  is ' +scmVars.GIT_BRANCH
         echo 'scm : the previous commit id is ' +scmVars.GIT_PREVIOUS_COMMIT
         sh 'ls -a;git --version'
-              sh'''
-              git config --global user.email "shaikmdali7@gmail.com"
-              git config --global user.name "Mahammad Ali"
-              '''
         post
  stage 'Extra Check'
         sh 'pwd'
